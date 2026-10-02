@@ -49,22 +49,5 @@ Responsive Design
 Tailwind CSS
 Reusable Components
 
-src/
-├── components/
-│   ├── Navbar.jsx
-│   ├── Navbar2.jsx
-│   └── Footer.jsx
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── About.jsx
-│   ├── Contact.jsx
-│   ├── Product.jsx
-│   ├── Men.jsx
-│   ├── Women.jsx
-│   └── NotFound.jsx
-│
-├── App.jsx
-├── main.jsx
-└── index.css
+
 
