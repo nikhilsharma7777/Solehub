@@ -1,16 +1,70 @@
-# React + Vite
+👟 SOLEHUB — Shoe Store Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive shoe shopping website built with React.js, Tailwind CSS, React Router, and Axios.
 
-Currently, two official plugins are available:
+SOLEHUB is a frontend project created to practice React concepts such as routing, reusable components, API integration, responsive design, and dynamic product rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Features
+🏠 Home page with modern hero section
+👟 Men shoes category
+👠 Women shoes category
+🛍️ Product category navigation
+📱 Responsive design for mobile, tablet, and desktop
+🧭 React Router navigation
+🔙 Back navigation
+📦 Dynamic product data using API
+⚡ Axios for API requests
+🎨 Tailwind CSS styling
+🔗 Reusable React components
+❌ 404 Not Found page
+📄 About page
+📞 Contact page
+🛠️ Tech Stack
+React.js
+JavaScript
+Tailwind CSS
+React Router DOM
+Axios
+Vite
+HTML5
+CSS3
+📚 React Concepts Practiced
 
-## React Compiler
+This project helped me practice:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Functional Components
+JSX
+Props
+useState
+useEffect
+React Router
+Link
+useNavigate
+Dynamic Routing
+API Integration
+Axios
+map()
+Conditional Rendering
+Responsive Design
+Tailwind CSS
+Reusable Components
 
-## Expanding the ESLint configuration
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Navbar2.jsx
+│   └── Footer.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Product.jsx
+│   ├── Men.jsx
+│   ├── Women.jsx
+│   └── NotFound.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
